@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Sun Systems Chennai - CCTV, IT & Security Solutions. Expert installation, reliable support, and best prices for homes & businesses.">
+<meta name="keywords" content="CCTV pallavaram, IT Solutions pallavaram, Security Systems pallavaram, Laptop Repair pallavaram, cctv in pammal, laptop service in pammal Sun Systems">
+<meta name="author" content="Sun Systems">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sun Systems - CCTV, IT & Security Solutions Chennai</title>
+  
+  <link rel="icon" type="image/png" href="assets/img/logo.webp">
+
+  <!-- 1. DNS Preconnect (Fonts & Icons சர்வரை முன்கூட்டியே இணைக்க) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+  <!-- 2. Local CSS (Non-blocking Asynchronous Load) -->
+  <link rel="preload" href="assets/style.css" as="style">
+  <link rel="stylesheet" href="assets/style.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="assets/style.css"></noscript>
+
+  <!-- 3. Google Fonts (Non-blocking Load with font-display: swap) -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500;600;700&display=swap"></noscript>
+
+  <!-- 4. Font Awesome Icons (Non-blocking Load - இதுவே 1.2 வினாடிகள் தாமதத்திற்கு முக்கியக் காரணம்) -->
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+
+  <!-- 5. LCP Image Preload (Hero Banner படம் இருந்தால் அதை மட்டும் Preload செய்யவும்) -->
+  <link rel="preload" as="image" href="assets/img/logo.webp" fetchpriority="high">
+
+
+  <style>
+    :root {
+      --orange: #ff6801;
+      --orange-hover: #e65c00;
+      --navy-dark: #020914;
+      --navy-main: #06152b;
+      --navy-card: #091c38;
+      --wa-green: #25d366;
+      --text-dark: #0f172a;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { color: var(--text-dark); background-color: #ffffff; overflow-x: hidden; }
+    .container { width: 92%; max-width: 1240px; margin: 0 auto; }
+
+    /* TOP BAR */
+    .top-bar {
+      background: #020813;
+      color: #94a3b8;
+      font-size: 13px;
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .top-bar-flex { display: flex; justify-content: space-between; align-items: center; }
+    .top-left i { color: var(--orange); margin-right: 6px; }
+    .top-right { display: flex; align-items: center; gap: 20px; }
+    .top-socials a { color: #94a3b8; margin-left: 12px; transition: 0.3s; text-decoration: none; font-size: 14px; }
+    .top-socials a:hover { color: var(--orange); }
+
+    /* HEADER & LOGO */
+    .main-header { padding: 8px 0; background: #ffffff; }
+    .header-flex { display: flex; justify-content: space-between; align-items: center; }
+    .logo-container-exact {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+    .logo-sun-icon { 
+      height: 72px; 
+      width: auto; 
+      object-fit: contain; 
+    }
+    .logo-text-block { display: flex; flex-direction: column; justify-content: center; }
+    .logo-brand-main {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      font-weight: 900;
+      color: #0b1a30;
+      line-height: 1;
+      letter-spacing: -0.5px;
+    }
+    .logo-brand-sub {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: #0b1a30;
+      margin-top: 4px;
+    }
+    .logo-brand-sub span { color: var(--orange); }
+
+    .header-actions { display: flex; align-items: center; gap: 18px; }
+    .contact-pill { display: flex; align-items: center; gap: 10px; }
+    .pill-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 16px;
+    }
+    .call-bg { background: var(--orange); }
+    .wa-bg { background: var(--wa-green); }
+    .pill-texts .sub { display: block; font-size: 10.5px; color: #64748b; font-weight: 500; }
+    .pill-texts .num {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      color: #040e1e;
+      text-decoration: none;
+    }
+
+    .btn {
+      padding: 9px 20px;
+      border-radius: 25px;
+      font-size: 12.5px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: 0.3s;
+      border: none;
+    }
+    .btn-primary { background: var(--orange); color: #ffffff; }
+    .btn-primary:hover { background: var(--orange-hover); }
+    .btn-outline { background: transparent; border: 2px solid #ffffff; color: #ffffff; }
+    .btn-outline:hover { background: #ffffff; color: #040e1e; }
+
+    /* ===================================================
+       ADJUSTED NAVBAR (WITHOUT PROJECTS & BLOG)
+       =================================================== */
+    .nav-bar { background: #030a17; border-top: 1px solid rgba(255,255,255,0.06); }
+    .nav-list { display: flex; list-style: none; }
+    .nav-list li a {
+      display: block;
+      padding: 12px 24px; /* Balanced spacing across remaining menu items */
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      transition: 0.3s;
+    }
+    .nav-list li a:hover,
+    .nav-list li a.active { background: var(--orange); }
+
+    .dropdown { position: relative; }
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #06152b;
+      width: 220px;
+      list-style: none;
+      display: none;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      border-radius: 0 0 6px 6px;
+      z-index: 100;
+    }
+    .dropdown:hover .dropdown-menu { display: block; }
+    .dropdown-menu li a {
+      padding: 11px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 12px;
+    }
+    .dropdown-menu li a:hover { background: var(--orange); }
+
+    /* HERO SECTION */
+    .hero-section {
+      background: #061224;
+      background-image: 
+        radial-gradient(circle at 80% 50%, rgba(0, 180, 255, 0.28) 0%, transparent 60%),
+        linear-gradient(to right, #061224 35%, rgba(6, 18, 36, 0.75) 100%),
+        url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    .hero-flex { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      position: relative; 
+      z-index: 2; 
+      min-height: 380px;
+    }
+    .hero-text { 
+      max-width: 48%; 
+      padding: 24px 0;
+    }
+    .hero-text h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 38px;
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+    .txt-orange { color: var(--orange); font-size: 38px; font-weight: 900; font-family: 'Montserrat', sans-serif; }
+    .hero-text p { font-size: 13.5px; color: #cbd5e1; margin-bottom: 16px; line-height: 1.5; }
+
+    .hero-badges-template {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .template-badge { display: flex; align-items: center; gap: 8px; }
+    .template-badge i { font-size: 22px; color: #ffffff; }
+    .badge-label { font-size: 12px; font-weight: 600; color: #ffffff; line-height: 1.2; }
+    .hero-btns { display: flex; gap: 14px; }
+
+    .hero-cctv-stage {
+      width: 52%;
+      height: 380px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+    .hero-cctv-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center right;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 18%, black 90%, transparent 100%),
+                          linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+      -webkit-mask-composite: destination-in;
+      mask-image: linear-gradient(to right, transparent 0%, black 18%, black 90%, transparent 100%),
+                  linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+      mask-composite: intersect;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* SIDE FLOATING BUTTONS */
+    .side-floating-btns {
+      position: fixed;
+      right: 0;
+      top: 45%;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      z-index: 999;
+    }
+    .side-btn {
+      width: 75px;
+      padding: 10px 0;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      border-radius: 8px 0 0 8px;
+      box-shadow: -3px 3px 10px rgba(0,0,0,0.2);
+    }
+    .side-call { background: var(--orange); }
+    .side-wa { background: var(--wa-green); }
+
+    /* OUR SERVICES SECTION */
+    .services-sec-template { 
+      padding: 24px 0 24px; 
+      background: #ffffff; 
+    }
+    .sec-head-template { 
+      text-align: center; 
+      margin-bottom: 18px; 
+    }
+    .sec-head-template .sub {
+      color: var(--orange);
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .sec-head-template h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      font-weight: 900;
+      color: #040e1e;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 6px;
+    }
+    .sec-head-template h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 44px;
+      height: 3px;
+      background: var(--orange);
+      border-radius: 2px;
+    }
+    .cards-grid-6 {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .card-item-white {
+      background: #ffffff;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 16px 12px 16px;
+      text-align: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-item-white:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.09);
+      border-color: #cbd5e1;
+    }
+    .card-icon-wrap {
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .card-icon-wrap i { font-size: 34px; color: var(--orange); }
+    
+    .card-item-white h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #06152b;
+      margin-bottom: 8px;
+      line-height: 1.3;
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: -0.2px;
+    }
+    
+    .card-item-white p { 
+      font-size: 11px; 
+      font-weight: 600;
+      color: #334155;
+      line-height: 1.45; 
+    }
+
+    .btn-view-all-services {
+      background: var(--orange);
+      color: #ffffff;
+      padding: 10px 28px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.3s;
+      box-shadow: 0 4px 12px rgba(255, 104, 1, 0.25);
+    }
+    .btn-view-all-services:hover {
+      background: var(--orange-hover);
+      box-shadow: 0 6px 18px rgba(255, 104, 1, 0.35);
+    }
+
+    /* STATS BAR */
+    .stats-bar-section {
+      background: #051329;
+      color: #ffffff;
+      padding: 10px 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .stats-grid { display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px; }
+    .stat-box { display: flex; align-items: center; gap: 14px; }
+    .stat-icon-wrap i { font-size: 34px; color: var(--orange); }
+    .stat-info h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 1;
+      color: #ffffff;
+      margin-bottom: 3px;
+    }
+    .stat-info p { font-size: 12px; color: #94a3b8; font-weight: 500; }
+
+    /* OUR RECENT WORK */
+    .projects-sec-template { 
+      padding: 22px 0 20px; 
+      background: #ffffff; 
+    }
+    .proj-grid-5 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .proj-card-item { text-align: center; }
+    .proj-img-frame {
+      height: 135px;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+      border: 1px solid #e2e8f0;
+      background: #0f172a;
+    }
+    .proj-img-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .proj-card-item:hover .proj-img-frame img { transform: scale(1.06); }
+    .proj-card-item h5 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #040e1e;
+      line-height: 1.35;
+    }
+
+    .btn-view-all-projects {
+      background: var(--orange);
+      color: #ffffff;
+      padding: 10px 28px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.3s;
+      box-shadow: 0 4px 12px rgba(255, 104, 1, 0.25);
+      border: none;
+    }
+    .btn-view-all-projects:hover {
+      background: var(--orange-hover);
+      box-shadow: 0 6px 18px rgba(255, 104, 1, 0.35);
+      color: #ffffff;
+    }
+
+    /* ALL 16 BRAND LOGOS STRIP */
+    .brands-section-wrapper {
+      background: #020914;
+      padding: 18px 0 20px; 
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .brand-group-title {
+      text-align: center;
+      color: var(--orange);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      margin-bottom: 12px;
+    }
+    .brand-grid-cctv-exact {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .brand-grid-it-exact {
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      gap: 10px;
+    }
+    .b-box {
+      background: #06152b;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 6px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 12px;
+      transition: 0.3s;
+    }
+    .b-box:hover {
+      border-color: var(--orange);
+      background: #091c38;
+    }
+
+    /* CCTV Brands Typography */
+    .logo-hikvision {
+      color: #e50914;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 21px;
+      font-style: italic;
+      letter-spacing: 0.5px;
+    }
+    .logo-dahua {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .dh-circle {
+      background: #e50914;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .dh-text {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 20px;
+      font-style: italic;
+      line-height: 1;
+    }
+    .dh-text small {
+      display: block;
+      font-size: 6px;
+      font-style: normal;
+      letter-spacing: 0.5px;
+      color: #94a3b8;
+    }
+    .logo-cpplus {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #ffffff;
+      line-height: 1;
+    }
+    .cp-top-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 16.5px;
+    }
+    .cp-icon {
+      color: #38bdf8;
+      font-size: 15px;
+    }
+    .cp-sub {
+      font-size: 6.5px;
+      color: #94a3b8;
+      letter-spacing: 0.4px;
+      margin-top: 3px;
+      font-weight: 600;
+    }
+    .logo-unv {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1;
+      text-align: center;
+    }
+    .logo-unv small {
+      display: block;
+      font-size: 5.5px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #94a3b8;
+    }
+    .logo-ezviz {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .ez-color-icon {
+      width: 23px;
+      height: 23px;
+      background: conic-gradient(#ec4899, #06b6d4, #eab308, #84cc16);
+      border-radius: 50%;
+    }
+    .ez-name {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17.5px;
+      line-height: 1;
+    }
+    .ez-name small {
+      display: block;
+      font-size: 5px;
+      color: #94a3b8;
+      font-weight: 500;
+    }
+    .logo-tvt {
+      color: #0284c7;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      font-style: italic;
+      line-height: 1;
+      text-align: center;
+    }
+    .logo-tvt small {
+      display: block;
+      font-size: 5px;
+      color: #38bdf8;
+      font-style: normal;
+    }
+    .logo-prama {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 1;
+      text-align: center;
+    }
+    .logo-prama i {
+      color: #f97316;
+      font-size: 13.5px;
+    }
+    .logo-prama small {
+      display: block;
+      font-size: 5px;
+      color: #94a3b8;
+      letter-spacing: 0.5px;
+      margin-top: 2px;
+    } 
+
+    /* IT Brands Typography */
+    .logo-dell {
+      border: 1.8px solid #ffffff;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 11.5px;
+      letter-spacing: 0.5px;
+    }
+    .logo-hp {
+      border: 1.8px solid #ffffff;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .logo-lenovo {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      letter-spacing: -0.3px;
+    }
+    .logo-asus {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 17px;
+      line-height: 1;
+      text-align: center;
+    }
+    .logo-asus small {
+      display: block;
+      font-size: 5px;
+      letter-spacing: 0.4px;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+    .logo-acer {
+      color: #84cc16;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 19px;
+      font-style: italic;
+    }
+    .logo-toshiba {
+      color: #e50914;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 14.5px;
+      line-height: 1;
+      text-align: center;
+    }
+    .logo-toshiba small {
+      display: block;
+      font-size: 5.5px;
+      color: #ffffff;
+      letter-spacing: 0.3px;
+      margin-top: 2px;
+    }
+    .logo-sony {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 12.5px;
+      line-height: 1.1;
+      text-align: center;
+    }
+    .logo-apple {
+      color: #ffffff;
+      font-size: 24px;
+    }
+    .logo-samsung {
+      color: #0284c7;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 15px;
+      letter-spacing: 0.8px; 
+    }
+
+    /* CTA BANNER */
+    .cta-sec { margin: 24px auto; }
+    .cta-card {
+      background: var(--navy-main);
+      border-radius: 12px;
+      padding: 20px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+    }
+    .cta-left { display: flex; align-items: center; gap: 16px; }
+    .cta-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--orange);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .cta-left h3 { font-family: 'Montserrat', sans-serif; font-size: 19px; font-weight: 800; }
+    .cta-left p { font-size: 12.5px; color: #94a3b8; }
+    .cta-right { display: flex; gap: 14px; }
+    .cta-btn {
+      border-radius: 8px;
+      padding: 9px 20px;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #ffffff;
+    }
+    .btn-call { background: var(--orange); }
+    .btn-wa { background: var(--wa-green); }
+    .cta-btn .t-sub { font-size: 10.5px; font-weight: 700; }
+    .cta-btn .t-num { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 900; }
+
+    /* HIGHLIGHTS STRIP */
+    .highlights-template-strip {
+      background: #ffffff;
+      padding: 20px 0;
+      border-top: 1px solid #e2e8f0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .highlights-grid-exact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+    .h-exact-item { display: flex; align-items: center; gap: 10px; }
+    .h-exact-item i { font-size: 26px; color: #0f172a; line-height: 1; }
+    .h-text-wrap {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.2;
+    }
+
+    /* FOOTER */
+    .site-footer-exact {
+      background: #06152b;
+      color: #94a3b8;
+      padding: 45px 0 0;
+      font-size: 12.5px;
+    }
+    .footer-grid-exact {
+      display: grid;
+      grid-template-columns: 2fr 1.1fr 1.3fr 1.8fr 1.8fr;
+      gap: 26px;
+      padding-bottom: 10px;
+    }
+    .footer-grid-exact h4 {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13.5px;
+      font-weight: 800;
+      margin-bottom: 14px;
+      letter-spacing: 0.5px;
+    }
+    .footer-about-text { font-size: 12px; line-height: 1.6; color: #cbd5e1; margin-bottom: 14px; }
+    .footer-social-icons a {
+      display: inline-flex;
+      width: 30px;
+      height: 30px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      margin-right: 6px;
+      transition: 0.3s;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    .footer-social-icons a:hover { background: var(--orange); }
+    .footer-links-list { list-style: none; }
+    .footer-links-list li { margin-bottom: 7px; }
+    .footer-links-list li a { color: #cbd5e1; text-decoration: none; transition: 0.3s; font-size: 12px; }
+    .footer-links-list li a:hover { color: var(--orange); }
+    .contact-item-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 9px;
+      line-height: 1.4;
+      font-size: 12px;
+      color: #cbd5e1;
+    }
+    .contact-item-row i { color: var(--orange); font-size: 13px; margin-top: 3px; }
+    .contact-item-row a { color: #cbd5e1; text-decoration: none; }
+    .contact-item-row a:hover { color: var(--orange); }
+
+    .newsletter-box p { font-size: 11.5px; color: #cbd5e1; margin-bottom: 8px; line-height: 1.4; }
+    .news-input {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: #ffffff;
+      font-size: 11.5px;
+      margin-bottom: 6px;
+      outline: none;
+    }
+    .btn-news-submit {
+      width: 100%;
+      background: var(--orange);
+      color: #ffffff;
+      border: none;
+      padding: 8px;
+      border-radius: 5px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn-news-submit:hover { background: var(--orange-hover); }
+
+    .footer-bottom-exact { border-top: 1px solid rgba(255,255,255,0.08); padding: 14px 0; }
+    .footer-bottom-inner { display: flex; justify-content: space-between; font-size: 11.5px; color: #94a3b8; }
+    .footer-bottom-inner a { color: #94a3b8; text-decoration: none; }
+    .footer-bottom-inner a:hover { color: #ffffff; }
+
+    /* FLOATING WA */
+    .wa-float-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: var(--wa-green);
+      color: #ffffff;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1100px) {
+      .cards-grid-6 { grid-template-columns: repeat(3, 1fr); }
+      .proj-grid-5 { grid-template-columns: repeat(3, 1fr); }
+      .brand-grid-cctv-exact { grid-template-columns: repeat(4, 1fr); }
+      .brand-grid-it-exact { grid-template-columns: repeat(5, 1fr); }
+      .highlights-grid-exact { flex-wrap: wrap; justify-content: center; gap: 16px; }
+      .footer-grid-exact { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 992px) {
+      .hero-flex { flex-direction: column; text-align: center; }
+      .hero-text { max-width: 100%; margin-bottom: 24px; }
+      .hero-text h1, .txt-orange { font-size: 32px; }
+      .hero-badges-template, .hero-btns { justify-content: center; }
+      .hero-cctv-stage { width: 100%; height: 280px; justify-content: center; }
+      .cta-card { flex-direction: column; text-align: center; gap: 16px; }
+      .cta-left { flex-direction: column; }
+      .side-floating-btns { display: none; }
+    }
+
+    @media (max-width: 768px) {
+      .top-bar { display: none; }
+      .header-flex { flex-direction: column; gap: 10px; text-align: center; }
+      .header-actions { flex-wrap: wrap; justify-content: center; gap: 8px; }
+      .nav-list { flex-wrap: wrap; justify-content: center; }
+      .nav-list li a { padding: 8px 12px; font-size: 11.5px; }
+      .cards-grid-6 { grid-template-columns: repeat(2, 1fr); }
+      .proj-grid-5 { grid-template-columns: repeat(2, 1fr); }
+      .brand-grid-cctv-exact { grid-template-columns: repeat(2, 1fr); }
+      .brand-grid-it-exact { grid-template-columns: repeat(3, 1fr); }
+      .stats-grid { flex-direction: column; align-items: center; gap: 16px; }
+      .footer-grid-exact { grid-template-columns: 1fr; }
+      .footer-bottom-inner { flex-direction: column; text-align: center; gap: 6px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero-text h1, .txt-orange { font-size: 24px; }
+      .cards-grid-6 { grid-template-columns: 1fr; }
+      .proj-grid-5 { grid-template-columns: 1fr; }
+      .brand-grid-it-exact { grid-template-columns: repeat(2, 1fr); }
+      .hero-btns { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-flex">
+      <div class="top-left">
+        <i class="fas fa-shield-alt"></i> Welcome to Sun Systems - Your Trusted IT &amp; Security Partner
+      </div>
+      <div class="top-right">
+        <span><i class="far fa-clock"></i> Mon - Sat: 9:00 AM - 7:00 PM</span>
+        <div class="top-socials">
+          <a href="https://www.facebook.com/sunsystemschennai" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/sunsystemschennai" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@sunsystems9874" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/sunsystemschennai" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header with Enlarged Logo -->
+  <header class="main-header">
+    <div class="container header-flex">
+      <a href="index.html" class="logo-container-exact">
+        <img src="assets/img/logo.webp" alt="Sun Logo" class="logo-sun-icon" onerror="this.src='assets/img/logo-full.png';">
+        <div class="logo-text-block">
+          <div class="logo-brand-main">Sun Systems</div>
+          <div class="logo-brand-sub">IT &amp; <span>SECURITY</span> SOLUTIONS</div>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <div class="contact-pill">
+          <div class="pill-icon call-bg"><i class="fas fa-phone-alt"></i></div>
+          <div class="pill-texts">
+            <span class="sub">Call Us Now</span>
+            <a href="tel:8072000902" class="num">80720 00902</a>
+          </div>
+        </div>
+
+        <div class="contact-pill">
+          <div class="pill-icon wa-bg"><i class="fab fa-whatsapp"></i></div>
+          <div class="pill-texts">
+            <span class="sub">WhatsApp Us</span>
+            <a href="https://wa.me/919500032808" target="_blank" class="num">95000 32808</a>
+          </div>
+        </div>
+
+        <a href="get-quote.html" class="btn btn-primary btn-quote">GET FREE QUOTE <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navbar (WITHOUT PROJECTS & BLOG) -->
+  <nav class="nav-bar">
+    <div class="container">
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li class="dropdown">
+          <a href="services.html">SERVICES <i class="fas fa-chevron-down"></i></a>
+         <ul class="dropdown-menu">
+            <li><a href="service-computers.html"><i class="fas fa-laptop" style="width: 20px;"></i> Computers &amp; Laptops</a></li>
+            <li><a href="service-cctv.html"><i class="fas fa-video" style="width: 20px;"></i> CCTV Systems</a></li>
+            <li><a href="printer-service.html"><i class="fas fa-print" style="width: 20px;"></i> Printer Service</a></li>
+            <li><a href="service-biometric.html"><i class="fas fa-fingerprint" style="width: 20px;"></i> Biometric Solutions</a></li>
+            <li><a href="service-security.html"><i class="fas fa-shield-alt" style="width: 20px;"></i> Security Systems</a></li>
+            <li><a href="service-networking.html"><i class="fas fa-network-wired" style="width: 20px;"></i> Networking Solutions</a></li>
+            <li><a href="service-amc.html"><i class="fas fa-tools" style="width: 20px;"></i> AMC &amp; Maintenance</a></li>
+            <li><a href="remote-support.html"><i class="fas fa-headset" style="width: 20px;"></i> Remote Support</a></li>
+          </ul>
+        </li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="solutions.html">SOLUTIONS</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+        <li><a href="careers.html">CAREERS</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-flex">
+      <div class="hero-text">
+        <h1>COMPLETE<span class="txt-orange"> IT &amp; SECURITY</span> SOLUTIONS FOR <br> HOMES &amp; BUSINESSES</h1>
+        <p>We provide advanced CCTV, IT &amp; Security solutions with expert installation and reliable after-sales support across Chennai.</p>
+        
+        <div class="hero-badges-template">
+          <div class="template-badge">
+            <i class="far fa-check-circle"></i>
+            <span class="badge-label">Quality<br>Products</span>
+          </div>
+          <div class="template-badge">
+            <i class="fas fa-user-shield"></i>
+            <span class="badge-label">Expert<br>Installation</span>
+          </div>
+          <div class="template-badge">
+            <i class="fas fa-headset"></i>
+            <span class="badge-label">Trusted<br>Support</span>
+          </div>
+          <div class="template-badge">
+            <i class="fas fa-tags"></i>
+            <span class="badge-label">Best<br>Price</span>
+          </div>
+        </div>
+
+        <div class="hero-btns">
+          <a href="contact.html" class="btn btn-primary btn-hero"><i class="far fa-calendar-alt"></i> GET FREE SITE VISIT</a>
+          <a href="services.html" class="btn btn-outline btn-hero">EXPLORE SERVICES <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-cctv-stage">
+        <img src="assets/img/hero-cctv.webp" alt="CCTV Cameras and Security Setup" class="hero-cctv-img" onerror="this.onerror=null; this.src='assets/img/Templates_3.png';">
+      </div>
+    </div>
+  </section>
+
+  <!-- Side Floating Buttons -->
+  <div class="side-floating-btns">
+    <a href="tel:8072000902" class="side-btn side-call"><i class="fas fa-phone-alt"></i><span>Call Now</span></a>
+    <a href="https://wa.me/919500032808" target="_blank" class="side-btn side-wa"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+  </div>
+
+  <!-- WHAT WE OFFER -->
+  <section class="services-sec-template">
+    <div class="container">
+      <div class="sec-head-template">
+        <span class="sub">OUR SERVICES</span>
+        <h2>What We Offer</h2>
+      </div>
+
+      <div class="cards-grid-6">
+        <div class="card-item-white">
+          <div class="card-icon-wrap"><i class="fas fa-video"></i></div>
+          <h3>CCTV Camera<br>Installation</h3>
+          <p>High quality CCTV cameras for home, office, shops, industries &amp; more.</p>
+        </div>
+
+        <div class="card-item-white">
+          <div class="card-icon-wrap"><i class="fas fa-fingerprint"></i></div>
+          <h3>Biometric &amp; Access<br>Control</h3>
+          <p>Attendance systems, access control &amp; time management solutions.</p>
+        </div>
+
+        <div class="card-item-white">
+          <div class="card-icon-wrap"><i class="fas fa-bell"></i></div>
+          <h3>Security Alarm<br>Systems</h3>
+          <p>Wireless &amp; wired alarm systems for complete safety and protection.</p>
+        </div>
+
+        <div class="card-item-white">
+          <div class="card-icon-wrap"><i class="fas fa-door-closed"></i></div>
+          <h3>Video Door Phone<br>Systems</h3>
+          <p>Advanced video door phone systems for secure communication.</p>
+        </div>
+
+        <div class="card-item-white">
+          <div class="card-icon-wrap"><i class="fas fa-network-wired"></i></div>
+          <h3>Networking<br>Solutions</h3>
+          <p>Structured cabling, routers, switches &amp; complete network setup.</p>
+        </div>
+
+        <div class="card-item-white">
+          <div class="card-icon-wrap"><i class="fas fa-tools"></i></div>
+          <h3>AMC &amp; Maintenance<br>Services</h3>
+          <p>Annual maintenance contracts &amp; prompt technical support.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="services.html" class="btn-view-all-services">VIEW ALL SERVICES <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-icon-wrap"><i class="fas fa-award"></i></div>
+          <div class="stat-info">
+            <h3>15+</h3>
+            <p>Years of Experience</p>
+          </div>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon-wrap"><i class="fas fa-users"></i></div>
+          <div class="stat-info">
+            <h3>4700+</h3>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon-wrap"><i class="fas fa-clipboard-check"></i></div>
+          <div class="stat-info">
+            <h3>3500+</h3>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon-wrap"><i class="fas fa-headset"></i></div>
+          <div class="stat-info">
+            <h3>24/7</h3>
+            <p>Support Available</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR RECENT WORK -->
+  <section class="projects-sec-template">
+    <div class="container">
+      <div class="sec-head-template">
+        <span class="sub">OUR PROJECTS</span>
+        <h2>Our Recent Work</h2>
+      </div>
+
+      <div class="proj-grid-5">
+        <div class="proj-card-item">
+          <div class="proj-img-frame">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80" alt="Residential CCTV Installation">
+          </div>
+          <h5>Residential CCTV Installation</h5>
+        </div>
+
+        <div class="proj-card-item">
+          <div class="proj-img-frame">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80" alt="Office Surveillance System">
+          </div>
+          <h5>Office Surveillance System</h5>
+        </div>
+
+        <div class="proj-card-item">
+          <div class="proj-img-frame">
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80" alt="Factory CCTV Setup">
+          </div>
+          <h5>Factory CCTV Setup</h5>
+        </div>
+
+        <div class="proj-card-item">
+          <div class="proj-img-frame">
+            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=400&q=80" alt="School Security System">
+          </div>
+          <h5>School Security System</h5>
+        </div>
+
+        <div class="proj-card-item">
+          <div class="proj-img-frame">
+            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&w=400&q=80" alt="Retail Store Surveillance">
+          </div>
+          <h5>Retail Store Surveillance</h5>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="contact.html" class="btn-view-all-projects">VIEW ALL PROJECTS <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALL 16 BRAND LOGOS STRIP -->
+   <section class="brands-section-wrapper">
+    <div class="container">
+      
+      <!-- CCTV BRANDS -->
+     <div class="brand-group-title">CCTV BRANDS WE INSTALL</div>
+      <div class="brand-grid-cctv-exact">
+        <div class="b-box"><div class="logo-hikvision">HIKVISION</div></div>
+        
+        <div class="b-box">
+          <div class="logo-dahua">
+            <div class="dh-circle">a</div>
+            <div class="dh-text">lhua<small>TECHNOLOGY</small></div>
+          </div>
+        </div>
+
+        <div class="b-box">
+          <div class="logo-cpplus">
+            <div class="cp-top-row"><i class="fas fa-times cp-icon"></i> CP PLUS</div>
+            <span class="cp-sub">Intelligent Security Systems</span>
+          </div>
+        </div>
+
+        <div class="b-box">
+          <div class="logo-unv">uñv<small>Uniview Technologies</small></div>
+        </div>
+
+        <div class="b-box">
+          <div class="logo-ezviz">
+            <div class="ez-color-icon"></div>
+            <div class="ez-name">ezviz<small>Security Video For Smart Life</small></div>
+          </div>
+        </div>
+
+        <div class="b-box">
+          <div class="logo-tvt">TVT<small>Secure the world with you</small></div>
+        </div>
+
+        <div class="b-box">
+          <div class="logo-prama">
+            PRAMA <i class="fas fa-wifi"></i>
+            <small>MADE FOR INDIA - MADE BY INDIA</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- LAPTOP & IT BRANDS -->
+      <div class="brand-group-title">LAPTOP &amp; IT BRANDS WE SERVICE</div>
+      <div class="brand-grid-it-exact">
+        <div class="b-box"><div class="logo-dell">DELL</div></div>
+        <div class="b-box"><div class="logo-hp">hp</div></div>
+        <div class="b-box"><div class="logo-lenovo">Lenovo</div></div>
+        <div class="b-box"><div class="logo-asus">ASUS<small>IN SEARCH OF INCREDIBLE</small></div></div>
+        <div class="b-box"><div class="logo-acer">acer</div></div>
+        <div class="b-box"><div class="logo-toshiba">TOSHIBA<small>Leading Innovation »»</small></div></div>
+        <div class="b-box"><div class="logo-sony">SONY<br>VAIO</div></div>
+        <div class="b-box"><i class="fab fa-apple logo-apple"></i></div>
+        <div class="b-box"><div class="logo-samsung">SAMSUNG</div></div>
+      </div>
+
+    </div>
+  </section> 
+<!-- Brands Section (Image Tag Based) -->
+ <!-- <section class="brands-section">
+    <div class="container">
+      
+      <!-- CCTV Brands -->
+    <!--  <div class="brand-category">
+        <h4 class="brand-title">CCTV BRANDS WE INSTALL</h4>
+        <div class="brand-grid">
+          <div class="brand-box"><img src="assets/img/brands/hikvision.png" alt="Hikvision"></div>
+          <div class="brand-box"><img src="assets/img/brands/dahua.png" alt="Dahua"></div>
+          <div class="brand-box"><img src="assets/img/brands/cpplus.png" alt="CP Plus"></div>
+          <div class="brand-box"><img src="assets/img/brands/unv.png" alt="UNV"></div>
+          <div class="brand-box"><img src="assets/img/brands/ezviz.png" alt="Ezviz"></div>
+          <div class="brand-box"><img src="assets/img/brands/tvt.png" alt="TVT"></div>
+          <div class="brand-box"><img src="assets/img/brands/prama.png" alt="Prama"></div>
+        </div>
+      </div>
+
+      <!-- Laptop Brands -->
+    <!--  <div class="brand-category">
+        <h4 class="brand-title">LAPTOP &amp; IT BRANDS WE SERVICE</h4>
+        <div class="brand-grid">
+          <div class="brand-box"><img src="assets/img/brands/dell.png" alt="Dell"></div>
+          <div class="brand-box"><img src="assets/img/brands/hp.png" alt="HP"></div>
+          <div class="brand-box"><img src="assets/img/brands/lenovo.png" alt="Lenovo"></div>
+          <div class="brand-box"><img src="assets/img/brands/asus.png" alt="Asus"></div>
+          <div class="brand-box"><img src="assets/img/brands/acer.png" alt="Acer"></div>
+          <div class="brand-box"><img src="assets/img/brands/toshiba.png" alt="Toshiba"></div>
+          <div class="brand-box"><img src="assets/img/brands/sony.png" alt="Sony Vaio"></div>
+          <div class="brand-box"><img src="assets/img/brands/apple.png" alt="Apple"></div>
+          <div class="brand-box"><img src="assets/img/brands/samsung.png" alt="Samsung"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- CTA Banner -->
+  <div class="container cta-sec">
+    <div class="cta-card">
+      <div class="cta-left">
+        <div class="cta-icon"><i class="fas fa-phone-alt"></i></div>
+        <div>
+          <h3>Need Expert Advice for Your Security?</h3>
+          <p>Talk to our experts today and get the best solution for your needs.</p>
+        </div>
+      </div>
+      <div class="cta-right">
+        <a href="tel:8072000902" class="cta-btn btn-call">
+          <span class="t-sub"><i class="fas fa-phone-alt"></i> CALL US NOW</span>
+          <span class="t-num">80720 00902</span>
+        </a>
+        <a href="https://wa.me/919500032808" target="_blank" class="cta-btn btn-wa">
+          <span class="t-sub"><i class="fab fa-whatsapp"></i> WHATSAPP US</span>
+          <span class="t-num">95000 32808</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HIGHLIGHTS STRIP -->
+  <div class="highlights-template-strip">
+    <div class="container highlights-grid-exact">
+      <div class="h-exact-item">
+        <i class="far fa-gem"></i>
+        <div class="h-text-wrap">100% Genuine<br>Products</div>
+      </div>
+
+      <div class="h-exact-item">
+        <i class="far fa-calendar-check"></i>
+        <div class="h-text-wrap">On-time<br>Installation</div>
+      </div>
+
+      <div class="h-exact-item">
+        <i class="fas fa-user-tie"></i>
+        <div class="h-text-wrap">Expert<br>Technicians</div>
+      </div>
+
+      <div class="h-exact-item">
+        <i class="fas fa-hand-holding-usd"></i>
+        <div class="h-text-wrap">Affordable<br>Pricing</div>
+      </div>
+
+      <div class="h-exact-item">
+        <i class="fas fa-headset"></i>
+        <div class="h-text-wrap">After Sales<br>Support</div>
+      </div>
+
+      <div class="h-exact-item">
+        <i class="fas fa-cogs"></i>
+        <div class="h-text-wrap">Customized<br>Solutions</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <footer class="site-footer-exact">
+    <div class="container footer-grid-exact">
+      <div>
+        <h4>About Sun Systems</h4>
+        <p class="footer-about-text">
+          Established in 2008, Sun Systems is a trusted name in IT & Security solutions. 
+We provide Laptop's, Computers, Server's, Storages, CCTV, Security Systems , Biometric, Networking, Printer repair solutions for homes and businesses.
+        </p>
+        <div class="footer-social-icons">
+          <a href="https://www.facebook.com/sunsystemschennai" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/sunsystemschennai" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@sunsystems9874" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/sunsystemschennai" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links-list">
+          <li><a href="about.html">&rsaquo; About Us</a></li>
+          <li><a href="services.html">&rsaquo; Our Services</a></li>
+          <li><a href="products.html">&rsaquo; Our Products</a></li>
+          <li><a href="careers.html">&rsaquo; Careers</a></li>
+          <li><a href="contact.html">&rsaquo; Contact Us</a></li>
+          <li><a href="faq.html">&rsaquo; FAQ</a></li>
+          </ul>
+      </div>
+
+      <div>
+        <h4>Our Services</h4>
+        <ul class="footer-links-list">
+          <li><a href="service-cctv.html">&rsaquo; CCTV Installation</a></li>
+          <li><a href="service-biometric.html">&rsaquo; Biometric Solutions</a></li>
+          <li><a href="printer-service.html">&rsaquo; Printer Service</a></li>
+          <li><a href="service-computers.html">&rsaquo; Computers &amp; Laptops</a></li>
+          <li><a href="service-networking.html">&rsaquo; Networking Solutions</a></li>
+          <li><a href="service-amc.html">&rsaquo; AMC &amp; Maintenance</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact Us</h4>
+        <div class="contact-item-row">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>No-7 - G1, ABC Rajya Apartment, 6th Cross St, LIC Colony, Pammal, Chennai, Tamil Nadu - 600075</span>
+        </div>
+        <div class="contact-item-row">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:8072000902">+91 80720 00902</a>
+        </div>
+        <div class="contact-item-row">
+          <i class="fab fa-whatsapp"></i>
+          <a href="https://wa.me/919500032808" target="_blank">+91 95000 32808</a>
+        </div>
+        <div class="contact-item-row">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:info@sunsystems.in">info@sunsystems.in</a>
+        </div>
+      </div>
+
+      <div class="newsletter-box">
+        <h4>Newsletter</h4>
+        <p>Subscribe to get updates &amp; latest offers</p>
+        <form onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+          <input type="email" placeholder="Enter your email" required class="news-input">
+          <button type="submit" class="btn-news-submit">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom-exact">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Sun Systems. All Rights Reserved.</p>
+        <div>
+          <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; 
+          <a href="terms-conditions.html">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Icon -->
+  <a href="https://wa.me/919500032808" class="wa-float-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+</html>
